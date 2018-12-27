@@ -10,10 +10,6 @@ const Table = styled.table`
   width: 85%;
 `;
 
-const PaddingTd = styled.td`
-  padding-left: 50px;
-`;
-
 const Menu = () => (
   <Section id="menu">
     <H2 color="#484848">Preview Menu</H2>
