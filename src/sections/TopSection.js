@@ -32,7 +32,7 @@ const TopSection = () => (
     <H2>Smokie's Butcher Shop</H2>
     <Text><Link href="tel:(931) 295-3525">(931) 295-3525</Link></Text>
     <Text>Smokie’s offers a wide variety of meats and deli items at a competitive price.</Text>
-    <ButtonLink href="#menu" color="#E16B34" hover="">Preview Our Menu</ButtonLink>
+    <ButtonLink href="#menu" color="#E16B34" hover="">View Featured Items</ButtonLink>
   </StyledSection>
 );
 

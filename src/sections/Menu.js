@@ -5,15 +5,26 @@ import H2 from '../components/H2';
 import Text from '../components/Text';
 
 const Table = styled.table`
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: left;
   width: 85%;
+
+`;
+
+const StyledText = styled(Text)`
+  margin: 10px;
+
+  @media only screen and (max-width: 725px) {
+    font-size: 1em;
+    margin: 0;
+  }
 `;
 
 const Menu = () => (
   <Section id="menu">
-    <H2 color="#484848">Preview Menu</H2>
-    <Text>Quality meat and deli selections</Text>
+    <H2 color="#484848">FEATURED ITEMS</H2>
+    <StyledText>Choice beef - grass feed, grain finished</StyledText>
+    <StyledText>Deli Sandwichs - Premuim Meat, made to order daily</StyledText>
     <Table className="pure-table pure-table-bordered">
       <thead>
         <tr>
