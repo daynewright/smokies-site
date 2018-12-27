@@ -76,7 +76,6 @@ class ContactUs extends Component {
         <Text color="#aaa"><Link href="tel:(931) 295-3525">(931) 295-3525</Link></Text>
         <Text>11 W Main Street Hohenwald, Tennessee</Text>
         <ButtonLink color="#E16B34" target="_blank" href="https://wego.here.com/directions/mix//Smokies-Butcher-Shop,-11-W-Main-Street,-38462-Hohenwald:e-eyJuYW1lIjoiU21va2llJ3MgQnV0Y2hlciBTaG9wIiwiYWRkcmVzcyI6IjExIFcgTWFpbiBTdHJlZXQsIEhvaGVud2FsZCwgVGVubmVzc2VlIDM4NDYyIiwibGF0aXR1ZGUiOjM1LjU0ODIsImxvbmdpdHVkZSI6LTg3LjU1MjI5LCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjE4MDEzNjMxNTMyMTg4NDB9?map=35.5482,-87.55229,15,normal&fb_locale=en_US"><i className="fas fa-map-marked-alt"></i> Get Directions</ButtonLink>
-        <ButtonLink color="#E16B34" href="mailto:email@email.com?subject=SweetWords"><i className="fas fa-envelope"></i> Send An Email</ButtonLink>
         <Map id="map" />
         <ButtonLink target="_blank" href="https://www.facebook.com/pages/category/Butcher-Shop/Smokies-Butcher-Shop-1801363153218840/"><i className="fab fa-facebook-f"></i> Find us on Facebook!</ButtonLink>
 				<ButtonLink target="_blank" href="http://m.me/1801363153218840"><i className="fab fa-facebook-messenger"></i>  Facebook Messenger</ButtonLink>
